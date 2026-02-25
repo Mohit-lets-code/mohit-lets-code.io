@@ -9744,17 +9744,11 @@ textarea.form-control {
     box-sizing: border-box !important;
   }
 }
-@media (max-width: 768px) {
-
-  .owl-carousel .home-slider .slider-item {
-      padding-left: 15px !important;
-      padding-right: 15px !important;
-      box-sizing: border-box !important;
-  }
-
-  .owl-carousel .home-slider .slider-item .one-forth {
+@media (max-width: 991.98px) {
+  .owl-carousel.home-slider .slider-item .slider-text .one-forth {
       left: 15px !important;
       right: 15px !important;
-      width: auto !important;
+      width: calc(100% - 30px) !important;
+      padding: 0 !important;
   }
 }
