@@ -9628,6 +9628,32 @@ textarea.form-control {
     border-radius: 10px;
 }
 
+.img-about {
+  width: 100%;
+  height: auto !important;
+}
+
+.about-img img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .img-about {
+    height: auto !important;
+  }
+
+  .about-img img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .overlay {
+    height: auto !important;
+  }
+}
 #ftco-loader {
   position: fixed;
   width: 96px;
