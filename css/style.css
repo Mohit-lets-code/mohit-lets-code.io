@@ -9643,6 +9643,8 @@ textarea.form-control {
 @media (max-width: 768px) {
   .img-about {
     height: auto !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 
   .about-img img {
