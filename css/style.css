@@ -9757,3 +9757,21 @@ textarea.form-control {
       object-fit: contain !important;
   }
 }
+.section-title {
+    background: #FFD700;       /* Yellow */
+    display: inline-block;     /* Yellow sirf text ke width tak jayega */
+    padding: 5px 20px;         /* Text ke around space */
+    border-radius: 5px;
+}
+
+/* Pure line ko cover karwane ke liye */
+.section-title-wrapper {
+    width: 100%;
+    text-align: center;         /* Heading center mein rahegi */
+    margin-bottom: 40px;
+}
+
+.section-title-wrapper .section-title {
+    display: block;             /* Full line cover */
+    width: 100%;
+}
