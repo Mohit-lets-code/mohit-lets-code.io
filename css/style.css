@@ -3500,7 +3500,9 @@ input[type="button"].btn-block {
 .navbar-text {
   display: inline-block;
   padding-top: 0.5rem;
-  padding-bottom: 0.5rem; }
+  padding-bottom: 0.5rem;
+  color: #b9bbbe;
+ }
 
 .navbar-collapse {
   -ms-flex-preferred-size: 100%;
