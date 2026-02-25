@@ -9735,3 +9735,12 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
     
 
+@media (max-width: 768px) {
+  .img-about {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    box-sizing: border-box !important;
+  }
+}
