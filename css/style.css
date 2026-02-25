@@ -9775,3 +9775,19 @@ textarea.form-control {
     display: block;             /* Full line cover */
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .section-title-wrapper {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .section-title {
+        background: #FFD700 !important;
+        display: block !important;
+        width: 100% !important;
+        padding: 8px 15px !important;
+        border-radius: 5px !important;
+    }
+}
