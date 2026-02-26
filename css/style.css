@@ -9761,7 +9761,7 @@ textarea.form-control {
   }
 }
 .section-title {
-    background: #FFD700;       /* Yellow */
+    background: #FFD650;       /* Yellow */
     display: inline-block;     /* Yellow sirf text ke width tak jayega */
     padding: 5px 20px;         /* Text ke around space */
     border-radius: 5px;
@@ -9787,7 +9787,7 @@ textarea.form-control {
     }
     
     .section-title {
-        background: #FFD700 !important;
+        background: #FFD650 !important;
         display: block !important;
         width: 100% !important;
         padding: 8px 15px !important;
